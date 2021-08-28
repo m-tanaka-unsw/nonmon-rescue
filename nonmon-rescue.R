@@ -675,13 +675,13 @@ plot.worst.N <- function(){
    lines(wN02$x, wN02$worstN, col=4)
    lines(wN05$x, wN05$worstN, col=1)
    sd.seq <- 10^seq(-4,-1, length.out=100)
-   lines(sd.seq, 1/sd.seq, lty=2, col=3) # plot 1/sd with dashed line
+#   lines(sd.seq, 1/sd.seq, lty=2, col=3) # plot 1/sd with dashed line
    legend("topright", c(expression(s[b]*" = 0.011"),
                         expression(s[b]*" = 0.02"),
                         expression(s[b]*" = 0.05")
-                       ,expression(" 1/"*s[d])
+#                       ,expression(" 1/"*s[d])
                         ), 
-          col=c(2,4,1,3), lty=c(1,1,1,2), bty="n") 
+          col=c(2,4,1), lty=c(1,1,1), bty="n") 
 
    dev.off()
 }

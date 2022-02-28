@@ -1,3 +1,3 @@
 # nonmon-rescue
-Code for article *Evolutionary rescue is non-monotonic in population
-size* by Tanaka and Wahl
+Code for article *Surviving environmental change: when increasing
+population size can increase extinction risk* by MM Tanaka and LM Wahl
